@@ -1,0 +1,17 @@
+{
+  "name": "music-video",
+  "version": "1.0.0",
+  "description": "this is using sass and live-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server",
+    "start": "concurrently \"sass --watch ./sass/main.scss ./vendor/css/style.css\" \"npm run serve\""
+  },
+  "author": "Shinji Kawasaki",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "parallelshell": "^3.0.2"
+  }
+}
